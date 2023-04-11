@@ -66,4 +66,14 @@ base para implementar su Cola de Prioridad.
 • Debe proponer y crear sus estructuras de datos para el diseño de la solución
 • Se deben manejar todos los errores y validaciones de datos de entrada
 • Adicionalmente al proyecto fuente a entregar, adjunte en formato JPG o PNG el
-diagrama de clases completo de su solución diseñada.
+diagrama de clases completo de su solución diseñada.*/
+
+
+
+/*Se estilan 6 posibles clases:
+1.Paciente: con los atributos y métodos necesarios para manejar la información de cada paciente.
+ListaEspera: contiene una lista de pacientes en espera y métodos para agregar y ordenar pacientes en la lista.
+Doctor: contiene información sobre si atiende pacientes respiratorios o no, y una lista de pacientes que ha atendido.
+CentroMedico: clase principal que contiene la lista de espera y los doctores, además de los métodos para cargar pacientes, llamar a pacientes y generar la lista de espera.
+Lector de CSV: lee un archivo CSV y genera una lista de pacientes.
+Utilidades: es una clase que contiene métodos útiles, como el método para generar el código de paciente./*
