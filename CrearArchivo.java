@@ -3,7 +3,6 @@ public void realizarAsignacionAleatoria() {
     List<T> elementosCopiados = new ArrayList<>(elementos);
     // Barajamos los elementos de forma aleatoria
     Collections.shuffle(elementosCopiados);
-    // Asignamos los elementos de forma circular
     String nombreArchivoBase = "archivoauditoria";
     String rutaArchivo;
     int numeroArchivo = 1;
@@ -17,10 +16,10 @@ public void realizarAsignacionAleatoria() {
             T elementoActual = elementos.get(i);
             T elementoAsignado = null;
             do {
-                // Seleccione un elemento de forma aleatoria
+                // Seleccionar un elemento de forma aleatoria
                 int indiceElementoAsignado = (i + 1) % elementos.size();
                 elementoAsignado = elementosCopiados.get(indiceElementoAsignado);
-                // Si el elemento asignado es igual al elemento actual, seleccione otro elemento de forma aleatoria
+                // Si el elemento asignado es igual al elemento actual, seleccionar otro elemento de forma aleatoria
             } while (elementoAsignado == elementoActual);
             String mensaje = "A " + elementoActual + " le corresponde " + elementoAsignado;
             writer.write(mensaje);
