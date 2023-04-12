@@ -71,9 +71,9 @@ diagrama de clases completo de su solución diseñada.*/
 
 
 /*Se estilan 6 posibles clases:
-1.Paciente: con los atributos y métodos necesarios para manejar la información de cada paciente.
-ListaEspera: contiene una lista de pacientes en espera y métodos para agregar y ordenar pacientes en la lista.
-Doctor: contiene información sobre si atiende pacientes respiratorios o no, y una lista de pacientes que ha atendido.
-CentroMedico: clase principal que contiene la lista de espera y los doctores, además de los métodos para cargar pacientes, llamar a pacientes y generar la lista de espera.
-Lector de CSV: lee un archivo CSV y genera una lista de pacientes.
-Utilidades: es una clase que contiene métodos útiles, como el método para generar el código de paciente./*
+1. Paciente: con los atributos y métodos necesarios para manejar la información de cada paciente.
+2. ListaEspera: contiene una lista de pacientes en espera y métodos para agregar y ordenar pacientes en la lista.
+3. Doctor: contiene información sobre si atiende pacientes respiratorios o no, y una lista de pacientes que ha atendido.
+4. CentroMedico: clase principal que contiene la lista de espera y los doctores, además de los métodos para cargar pacientes, llamar a pacientes y generar la lista de espera.
+5. Lector de CSV: lee un archivo CSV y genera una lista de pacientes.
+6. Utilidades: es una clase que contiene métodos útiles, como el método para generar el código de paciente./*
