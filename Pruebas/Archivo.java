@@ -50,4 +50,5 @@ public class Archivo {
 
 /*
 La duda en esta clase y a preguntar es si es necesario escribir los datos de los pacientes que van llegando en el archivo de donde se sacan los pacientes
+y si se deberia tener un listado de los pacientes ya atendidos y si es el caso si se deben sobreescribir en el archivo ya dispuesto o guardar en un nuevo archivo
 */
