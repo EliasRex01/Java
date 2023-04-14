@@ -47,7 +47,8 @@ public class Archivo {
 }
 
 /*
-La clase Archivo es responsable de cargar y guardar pacientes en un archivo CSV. Para cargar pacientes, se utiliza un objeto BufferedReader para leer el archivo línea por línea y luego se utiliza el método split() para dividir la línea en campos individuales. Se crea un objeto Paciente a partir de estos campos y se agrega a la lista de pacientes.
-
-Para guardar pacientes, se utiliza un objeto FileWriter para escribir la información del paciente en una nueva línea del archivo. Se construye una cadena de texto que contiene los datos del paciente separados por comas y seguidos de un salto de línea.
+carga y guarda pacientes en un archivo CSV. Para cargar pacientes, se utiliza un objeto BufferedReader para leer el archivo línea por línea y luego se 
+utiliza el método split() para dividir la línea en campos individuales. Se crea un objeto Paciente a partir de estos campos y se agrega a la lista de pacientes.
+Para guardar pacientes, se utiliza un objeto FileWriter para escribir la información del paciente en una nueva línea del archivo. Se construye 
+una cadena de texto que contiene los datos del paciente separados por comas y seguidos de un salto de línea.
 */
