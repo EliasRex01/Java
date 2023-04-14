@@ -112,4 +112,5 @@ public class Paciente {
 
 
 /*hacer archivo de ejemplo para comprobar los atributos necesarios
+pero bien esta clase podria ser la definitiva a expensas del contenido de las demas clases
 */
